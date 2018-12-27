@@ -1,13 +1,17 @@
 class Dog
-  def initiliaze(name)
+  def initiliaze(name, breed)
     @name = name
+    @breed = breed
   end
 
-  def name=(name)
+  def name=(name, breed)
     @name = name
+    @breed = breed
   end
 
   def name
     "#{@name}".strip
+    "#{@breed}".strip
   end
+
 end
