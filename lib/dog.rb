@@ -11,4 +11,5 @@ class Dog
   def name
 
   end
+  fido = Dog.new
 end
